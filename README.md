@@ -18,20 +18,19 @@ is available at [Pingperf-spring-boot](https://github.com/HotswapProjects/pingpe
 
 ## Quick start
 
-* run `build-X.sh` to build docker image for given microprofile or app server
-* send REST requests as fast as possible (in single thread) : `./perf-utils/echo_test.py`
+* run `build-X.sh` to build docker image for given microprofile
+* check sending REST requests using python client (single thread) : `./perf-utils/echo_test.py`
 * monitor performance : `watch "docker stats --no-stream --no-trunc && echo && ./perf-utils/ping_statistics.py"`
-* for more accurate measurement use [jmeter](https://github.com/HotswapProjects/pingperf/jmeter_test.jmx)
 
-## Results
+For more accurate measurement use jmeter with prepared [jmeter](https://github.com/HotswapProjects/pingperf/jmeter_50users.jmx) script.
 
-Load tests are currently using 3 sets varying in heap size and number of users (clients):
+## JMeter load tests results
+
+Tests were splitted into 3 groups varying in the heap size and the number of users (clients):
 
 - Xmx128m running single user (client)
 - Xmx256m running 10 users (clients)
 - Xmx256 running 50 users (clients)
-
-Following  were measured by JMeter.
 
 ### Single thread (user) / Xmx128m
 
