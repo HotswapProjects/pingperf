@@ -36,7 +36,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
-|Meecrowave 1.2.1|0.9s|163MB|3850/s|-Xmx128m|
+|Meecrowave 1.2.1|0.7s|169MB|4633/s|-Xmx128m|
 |Meecrowave 1.2.4|0.7s|194MB|4659/s|-Xmx128m|
 |Open Liberty 17.04|4s|259MB|3260/s|-Xmx128m|
 |Open Liberty 18.04|0,7s,real ~3s|252MB|3671/s|-Xmx128m|
