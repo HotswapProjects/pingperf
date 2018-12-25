@@ -40,7 +40,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Open Liberty 18.04|0,7s,real ~3s|252MB|3671/s|-Xmx128m|
 |Payara Micro 5.184|6s|337MB|3697/s|-Xmx128m --nocluster|
 |Wildfly Swarm 2018.3.3|5s|352MB|3447/s|-Xmx128m|
-|Spring-Boot 2.1.1|0.5s|212MB|1719/s|-Xmx128m|
+|Spring-Boot 2.1.1|0.5s|216MB|4869/s|-Xmx128m|
 
 ### 10 threads (users) / Xmx256m
 
