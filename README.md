@@ -38,9 +38,10 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |------------|----------|----------------|----------------|---------|
 |Meecrowave 1.2.4|0.7s|194MB|4659/s|-Xmx128m|
 |Open Liberty 18.04|0,7s,real ~3s|252MB|3671/s|-Xmx128m|
-|Payara Micro 5.184|6s|355MB|3653/s|-Xmx128m --nocluster|
-|Wildfly Swarm 2018.3.3|5s|347MB|3158/s|-Xmx128m|
+|Payara Micro 5.184|6s|337MB|3697/s|-Xmx128m --nocluster|
+|Wildfly Swarm 2018.3.3|5s|352MB|3447/s|-Xmx128m|
 |Spring-Boot 2.0.1|1.9s|257MB|4113/s|-Xmx128m|
+|Spring-Boot 2.1.1|1.4s|222MB|1937/s|-Xmx128m|
 
 ### 10 threads (users) / Xmx256m
 
