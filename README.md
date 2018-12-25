@@ -39,7 +39,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Meecrowave 1.2.1|0.9s|163MB|3850/s|-Xmx128m|
 |Meecrowave 1.2.4|0.7s|194MB|4659/s|-Xmx128m|
 |Open Liberty 17.04|4s|259MB|3260/s|-Xmx128m|
-|Open Liberty 18.04|shown 0,7s,real ~3s|252MB|3671/s|-Xmx128m|
+|Open Liberty 18.04|0,7s,real ~3s|252MB|3671/s|-Xmx128m|
 |Payara Micro 5.181|5s|312MB|3433/s|-Xmx128m --nocluster|
 |Payara Micro 5.184|6s|355MB|3653/s|-Xmx128m --nocluster|
 |Wildfly Swarm 2018.3.3|5s|347MB|3158/s|-Xmx128m|
