@@ -40,17 +40,17 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Open Liberty 18.04|0,7s,real ~3s|252MB|3671/s|-Xmx128m|
 |Payara Micro 5.184|6s|337MB|3697/s|-Xmx128m --nocluster|
 |Wildfly Swarm 2018.3.3|5s|352MB|3447/s|-Xmx128m|
-|Spring-Boot 2.1.1|0.5s|216MB|4869/s|-Xmx128m|
+|Spring-Boot 2.1.1|1.4s|216MB|4869/s|-Xmx128m|
 
 ### 10 threads (users) / Xmx256m
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
-|Meecrowave 1.2.1|0.9s|207MB|25446/s|-Xmx256m|
-|Open Liberty 17.04|4s|290MB|33240/s|-Xmx256m|
-|Payara Micro 5.181|5s|352MB|25798/s|-Xmx256m --nocluster|
-|Wildfly Swarm 2018.3.3|5s|390MB|22897/s|-Xmx256m|
-|Spring-Boot 2.0.1|1.9s|276MB|26559/s|-Xmx256m|
+|Meecrowave 1.2.4|0.7s|219MB|25121/s|-Xmx256m|
+|Open Liberty 18.04|3s|298MB|33070/s|-Xmx256m|
+|Payara Micro 5.184|6s|399MB|24768/s|-Xmx256m --nocluster|
+|Wildfly Swarm 2018.3.3|5s|390MB|22243/s|-Xmx256m|
+|Spring-Boot 2.1.1|1.4s|268MB|24908/s|-Xmx256m|
 
 ### 50 threads (users) / Xmx 256
 
