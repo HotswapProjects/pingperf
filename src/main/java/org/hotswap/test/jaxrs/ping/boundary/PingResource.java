@@ -22,7 +22,7 @@ public class PingResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("simple")
     public Response getSimple() {
-        statistics.updateStatistic(0);
+        //statistics.updateStatistic(0);
         return Response.ok().build();
     }
 
