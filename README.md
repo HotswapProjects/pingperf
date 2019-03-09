@@ -56,11 +56,11 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
-|Meecrowave 1.2.4|0.7s|237MB|26734/s|-Xmx256m|
-|Open Liberty 18.04|4s|300MB|35654/s|-Xmx256m|
-|Payara Micro 5.184|6s|439MB|32762/s|-Xmx256m --nocluster|
-|Wildfly Swarm 2018.3.3|5s|420MB|40621/s|-Xmx256m|
-|Spring-Boot 2.1.1|1.9s|281MB|33035/s|-Xmx256m|
+|Meecrowave 1.2.7|0.7s|237MB|32967/s|-Xmx256m|
+|Open Liberty 19.0.02|4s|300MB|43329/s|-Xmx256m|
+|Payara Micro 5.191|6s|385MB|33371/s|-Xmx256m --nocluster|
+|Wildfly Swarm 2018.3.3|5s|420MB|39162/s|-Xmx256m|
+|Spring-Boot 2.1.1|1.4s|251MB|34730/s|-Xmx256m|
 
 ## RaspberryPI
 
