@@ -61,6 +61,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Payara Micro 5.191|6s|385MB|33371/s|-Xmx256m --nocluster|
 |Wildfly Swarm 2018.3.3|5s|420MB|39162/s|-Xmx256m|
 |Spring-Boot 2.1.1|1.4s|251MB|34730/s|-Xmx256m|
+|Quarkus 0.11.00 |0.01s|350MB|28730/s|no|
 
 ## RaspberryPI
 
