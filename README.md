@@ -20,6 +20,7 @@ at [Pingperf-Quarkus](https://github.com/HotswapProjects/pingperf-quarkus)
 ## Quick start
 
 * run `build-X.sh` to build docker image for given microprofile
+* run `run-X.sh` to run docker image for given microprofile
 * run jmeter test with appropriate number of clients. e.g.[jmeter](https://github.com/HotswapProjects/pingperf/jmeter_50users.jmx) script.
 
 ## HW/OS
@@ -39,9 +40,9 @@ Linux version 5.0.0-arch1-1-ARCH (builduser@heftig-18825) (gcc version 8.2.1 201
 
 Tests were splitted into 3 groups varying in the heap size and the number of users (clients):
 
-- Xmx128m running single user (client)
-- Xmx256m running 10 users (clients)
-- Xmx256 running 50 users (clients)
+- Xmx128m running single client
+- Xmx256 running 10 clients
+- Xmx256 running 50 clients
 
 ### Single thread (user) / Xmx128m
 
@@ -58,12 +59,12 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
-|Meecrowave 1.2.7|0.7s|237MB|32967/s|-Xmx256m|
-|Open Liberty 19.0.02|4s|300MB|43329/s|-Xmx256m|
-|Payara Micro 5.191|6s|385MB|33371/s|-Xmx256m --nocluster|
-|Wildfly Swarm 2018.3.3|5s|420MB|39162/s|-Xmx256m|
-|Spring-Boot 2.1.1|1.4s|251MB|34730/s|-Xmx256m|
-|Quarkus 0.11.00 |0.01s|350MB|28730/s|no|
+|Meecrowave 1.2.7|0.7s|252MB|33425/s|-Xmx256m|
+|Open Liberty 19.0.02|4s|311MB|41669/s|-Xmx256m|
+|Payara Micro 5.191|6s|403MB|28942/s|-Xmx256m --nocluster|
+|Wildfly Swarm 2018.3.3|5s|404MB|39630/s|-Xmx256m|
+|Spring-Boot 2.1.1|1.4s|280MB|35013/s|-Xmx256m|
+|Quarkus 0.11.00 |0.01s|307MB|31207/s|no|
 
 ### 10 threads (users) / Xmx256m
 
