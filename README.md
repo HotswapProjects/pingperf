@@ -44,7 +44,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 - Xmx256 running 10 clients
 - Xmx256 running 50 clients
 
-### Single thread (user) / Xmx128m
+### Single thread (user) / -Xmx128m
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
@@ -55,7 +55,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Spring-Boot 2.1.1|1.4s|235MB|5970/s|-Xmx128m|
 |Quarkus 0.11.00 |0.01s|272MB|2905/s|no|
 
-### 50 threads (users) / Xmx 256
+### 50 threads (users) / -Xmx256m
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
@@ -66,7 +66,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Spring-Boot 2.1.1|1.4s|280MB|35013/s|-Xmx256m|
 |Quarkus 0.11.00 |0.01s|307MB|31207/s|no|
 
-### 10 threads (users) / Xmx256m
+### 10 threads (users) / -Xmx256m
 
 |Microprofile|Start time|Docker mem usage|Throughput req/s|JAVA_OPTS|
 |------------|----------|----------------|----------------|---------|
