@@ -1,5 +1,3 @@
-/*
- */
 package org.hotswap.test.jaxrs.ping;
 
 import javax.ws.rs.ApplicationPath;
