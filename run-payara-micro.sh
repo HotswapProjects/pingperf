@@ -1,2 +1,2 @@
 #!/bin/sh
-docker run -ti --rm -p 8080:8080 pingperf-payara-micro
+docker run -ti --rm -p 8080:8080 --network host pingperf-payara-micro
