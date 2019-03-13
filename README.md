@@ -53,7 +53,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Payara Micro 5.191|6s|320MB|3116/s|-Xmx128m --nocluster|
 |Wildfly Swarm 2018.3.3|5s|330MB|3256/s|-Xmx128m|
 |Spring-Boot 2.1.1|1.4s|235MB|5970/s|-Xmx128m|
-|Quarkus 0.11.00 |0.01s|272MB|2905/s|no|
+|Quarkus 0.11.00 |0.01s|||no|
 
 ### 50 threads (users) / -Xmx256m
 
@@ -64,7 +64,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Payara Micro 5.191|6s|403MB|28942/s|-Xmx256m --nocluster|
 |Wildfly Swarm 2018.3.3|5s|404MB|39630/s|-Xmx256m|
 |Spring-Boot 2.1.1|1.4s|280MB|35013/s|-Xmx256m|
-|Quarkus 0.11.00 |0.01s|307MB|31207/s|no|
+|Quarkus 0.11.00 |0.01s|||no|
 
 ### 10 threads (users) / -Xmx256m
 
