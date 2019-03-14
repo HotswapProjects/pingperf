@@ -54,7 +54,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Microprofile|Start time|Docker mem usage|Req/s|Stdev /s|Latency|Stdev|
 |------------|----------|----------------|-----|--------|----------|--------|
 |Meecrowave 1.2.7|0.7s|197MB|10.31k|1.79k|118.12us|280.55us|
-|Open Liberty 19.02|0,7s,real ~3s|250MB|4.93k|739.1|333.86us|2.67ms|
+|Open Liberty 19.02|0,7s,real ~3s|250MB|4.99k|629.76|225.59us|372.52us|
 |Payara Micro 5.191|6s|320MB|4.96k|1.63k|223.10us|332.64us|
 |Wildfly Swarm 2018.3.3|5s|326MB|7.40k|2.43k|186.80us|486.31us|
 |Spring-Boot 2.1.1|1.5s|216MB|9.39k|1.29k|144.99us|521.05us|
