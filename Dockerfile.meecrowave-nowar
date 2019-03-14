@@ -1,5 +1,0 @@
-FROM hotswapagent/meecrowave-nowar
-COPY ./target/classes/ ${CLASS_PATH}
-ENV CONTEXT /pingperf
-ENV JAVA_OPTS="-Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true -Xmx128m"
-ENV APP_OPTS="--cdi-conversation=false"
