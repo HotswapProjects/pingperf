@@ -51,13 +51,13 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 * For spring-boot `url=http://127.0.0.1:8080/simple`
 * For quarkus+swarm `url=http://127.0.0.1:8080/ping/simple`
 
-|Microprofile|Start time|Docker mem usage|Req/s|Stdev /s|Latency us|Stdev us|
+|Microprofile|Start time|Docker mem usage|Req/s|Stdev /s|Latency|Stdev|
 |------------|----------|----------------|-----|--------|----------|--------|
 |Meecrowave 1.2.7|0.7s|197MB|10.31k|1.79k|118.12us|280.55us|
-|Open Liberty 19.02|0,7s,real ~3s|250MB|4.93k|739.1|333.86|2.67ms|
-|Payara Micro 5.191|6s|320MB|4.96k|1.63k|223.10|332.64us|
-|Wildfly Swarm 2018.3.3|5s|326MB|7.40k|2.43k|186.80|486.31us|
-|Spring-Boot 2.1.1|1.5s|216MB|9.39k|1.29k|144.99|521.05us|
+|Open Liberty 19.02|0,7s,real ~3s|250MB|4.93k|739.1|333.86us|2.67ms|
+|Payara Micro 5.191|6s|320MB|4.96k|1.63k|223.10us|332.64us|
+|Wildfly Swarm 2018.3.3|5s|326MB|7.40k|2.43k|186.80us|486.31us|
+|Spring-Boot 2.1.1|1.5s|216MB|9.39k|1.29k|144.99us|521.05us|
 |Quarkus JVM 0.11|0.57s|151M|11.30k|3.11k|99.70us|233.30us|
 |Quarkus Native 0.11|0.003s|16M|8.35k|0.97k|170.69us|542.13us|
 
