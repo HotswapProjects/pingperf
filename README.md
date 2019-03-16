@@ -8,7 +8,7 @@
     |_|   |_||_||_| \__, | |_|  \___| |_|   |_|
                     |___/
 
-# Performance tests of java [MicroProfiles](https://microprofile.io/), Spring-Boot, Quarkus and Micronaut
+# Performance tests of java [MicroProfiles](https://microprofile.io/), [Spring-Boot](https://spring.io/projects/spring-boot), [Quarkus](https://quarkus.io/) and [Micronaut](https://micronaut.io/)
 
 ## Motivation
 
