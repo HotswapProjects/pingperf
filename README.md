@@ -58,7 +58,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Quarkus Native 0.11|0.003s|16M|8.35k|0.97k|170.69us|542.13us|
 |Micronaut 1.0.3|0.907s|200|15.19k|1.84k|84.64us|310.88us|
 
-### 50 threads (users) / -Xmx256m
+### 50 threads (users) / -Xmx128m
 * messured second step of following script `for run in {1..2}; do  wrk -t4 -c50 -d60s http://127.0.0.1:8080/pingperf/ping/simple; done`
 * For Open Liberty `url=http://127.0.0.1:9080/pingperf/ping/simple`
 * For spring-boot `url=http://127.0.0.1:8080/simple`
