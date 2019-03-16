@@ -8,19 +8,16 @@
     |_|   |_||_||_| \__, | |_|  \___| |_|   |_|
                     |___/
 
-# Performance tests of java [MicroProfiles](https://microprofile.io/), Spring-Boot and Quarkus
+# Performance tests of java [MicroProfiles](https://microprofile.io/), Spring-Boot, Quarkus and Micronaut
 
 ## Motivation
 
 Docker based comparision of java MicroProfiles and Spring-Boot using simple ping REST request. Docker images are based
-on images from [hotswap-docklands](https://github.com/HotswapProjects/hotswap-docklands). Spring-Boot test application
-is available at [Pingperf-spring-boot](https://github.com/HotswapProjects/pingperf-spring-boot). Quarkus test is available
-at [Pingperf-Quarkus](https://github.com/HotswapProjects/pingperf-quarkus)
-
+on images from [hotswap-docklands](https://github.com/HotswapProjects/hotswap-docklands). 
 ## Quick start
 
-* run `build-X.sh` to build docker image for given microprofile
-* run `run-X.sh` to run docker image for given microprofile
+* run `build-X.sh` to build docker image for given microprofile, spring-boot, quarkus, micronaut
+* run `run-X.sh` to run docker image for given microprofile, spring-boot, quarkus, micronaut
 * run wrk test with appropriate number of clients.
 
 ## HW/OS
@@ -59,8 +56,9 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Spring-Boot 2.1.1|1.5s|216MB|9.39k|1.29k|144.99us|521.05us|
 |Quarkus JVM 0.11|0.57s|151M|11.30k|3.11k|99.70us|233.30us|
 |Quarkus Native 0.11|0.003s|16M|8.35k|0.97k|170.69us|542.13us|
+|Micronaut 1.0.3|0.907s|200|15.19k|1.84k|84.64us|310.88us|
 
-### 50 threads (users) / -Xmx128m
+### 50 threads (users) / -Xmx256m
 * messured second step of following script `for run in {1..2}; do  wrk -t4 -c50 -d60s http://127.0.0.1:8080/pingperf/ping/simple; done`
 * For Open Liberty `url=http://127.0.0.1:9080/pingperf/ping/simple`
 * For spring-boot `url=http://127.0.0.1:8080/simple`
@@ -75,3 +73,4 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Spring-Boot 2.1.1|1.5s|291MB|63545|1.58k*4|1200us|1750us|
 |Quarkus JVM 0.11|0.57s|208M|73840|10.56k*4|8390us|19760us|
 |Quarkus Native 0.11|0.003s|16M|19568|4.95k*4|23540us|46970us|
+|Micronaut 1.0.3|0.907s|225M|140216.96|3.68k*4|1030ms|2760us|
