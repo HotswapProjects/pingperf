@@ -56,7 +56,7 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |Spring-Boot 2.1.1|1.5s|216MB|9.39k|1.29k|144.99us|521.05us|
 |Quarkus JVM 0.11|0.57s|151M|11.30k|3.11k|99.70us|233.30us|
 |Quarkus Native 0.11|0.003s|16M|8.35k|0.97k|170.69us|542.13us|
-|Micronaut 1.0.3|0.907s|200|15.19k|1.84k|84.64us|310.88us|
+|Micronaut 1.0.3|0.907s|200M|15.19k|1.84k|84.64us|310.88us|
 
 ### 50 threads (users) / -Xmx128m
 * messured second step of following script `for run in {1..2}; do  wrk -t4 -c50 -d60s http://127.0.0.1:8080/pingperf/ping/simple; done`
