@@ -68,9 +68,9 @@ Tests were splitted into 3 groups varying in the heap size and the number of use
 |------------|----------|----------------|-----|--------|----------|--------|
 |Meecrowave 1.2.7|0.7s|264MB|58879|1.25k*4|1110us|1400us|
 |Open Liberty 19.02|~3s|334MB|59205|1.10k*4|990us|1440us|
-|Payara Micro 5.191|6s|372MB|40266|0.88k*4|2330msus|4440us|
+|Payara Micro 5.191|6s|372MB|40266|0.88k*4|2330us|4440us|
 |Wildfly Swarm 2018.3.3|5s|388MB|62052|1.34k*4|1690us|5550us|
 |Spring-Boot 2.1.1|1.5s|291MB|63545|1.58k*4|1200us|1750us|
 |Quarkus JVM 0.11|0.57s|140M|80109|2.09k*4|625.98us|453.44us|
 |Quarkus Native 0.11|0.023s|450M|28676|0.34k*4|1710us|602.95us|
-|Micronaut 1.0.3|0.907s|225M|140216.96|3.68k*4|1030ms|2760us|
+|Micronaut 1.0.3|0.907s|225M|140216.96|3.68k*4|1030us|2760us|
