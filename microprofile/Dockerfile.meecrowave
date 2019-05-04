@@ -1,4 +1,4 @@
-FROM hotswapagent/meecrowave
+FROM pingperf/meecrowave
 COPY ./target/pingperf.war ${DEPLOYMENT_DIR}
 ENV ARCHIVE_NAME pingperf.war
 ENV CONTEXT pingperf
